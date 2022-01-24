@@ -6,7 +6,7 @@ const accordeon = () => {
           const chContent = item.querySelector('.characteristics__description')
 
           chButton.addEventListener('click', () => {
-              if(chContent.classList.contains('active')) {
+              if(chContent.classList.contains('open')) {
                 chContent.style.height = ''
               } else {
                 chContent.style.height = chContent.scrollHeight + 'px'
